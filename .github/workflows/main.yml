@@ -14,5 +14,8 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.NAME }}
         port: ${{ secrets.PORT }}
-        script: whomami
+        script: | 
+          whomami
+          ls
+          
       
