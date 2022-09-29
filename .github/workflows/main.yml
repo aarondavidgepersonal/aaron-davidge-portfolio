@@ -15,7 +15,7 @@ jobs:
         username: ${{ secrets.NAME }}
         port: ${{ secrets.PORT }}
         script: | 
-          whomami
-          ls
+          whoami
+          whoami
           
       
