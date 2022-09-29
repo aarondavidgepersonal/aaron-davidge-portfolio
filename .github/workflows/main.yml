@@ -7,7 +7,6 @@ jobs:
   job_one:
     name: Deploy
     runs-on: ubuntu-latest
-    environment: main
     steps:
     - name: test
       uses: appleboy/ssh-action@master
